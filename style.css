@@ -34,8 +34,13 @@ button{
     padding:25px;
     border-radius: 15px;
     border:5px solid orange;
+    margin-top: 10px;
 }
 .bookmark_card a{
     color: orangered;
     text-decoration: none;
+}
+#bookmarks_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
