@@ -1,0 +1,41 @@
+
+header h1{
+    color:orange;
+    text-align: center;
+    font-size: 52px;
+    margin: auto auto;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid orange;
+}
+header{
+    background-image: url("https://media.istockphoto.com/id/516318760/photo/red-fox-vulpes-vulpes.jpg?s=2048x2048&w=is&k=20&c=sPoMhpD83ZGZRBx6m4oXA8X0pvOiJYSuCb_cM0BQXkU=");
+    height: 850px;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin:30px auto;
+    width: 300px;
+    border-radius: 15px;
+    border:5px solid orange;
+    padding: 25px;
+}
+button{
+    background-color: orange;
+    margin-top: 15px;
+    border: unset;
+    border-radius: 5px;
+    padding: 10px;
+}
+.bookmark_card{
+    width: 500px;
+    padding:25px;
+    border-radius: 15px;
+    border:5px solid orange;
+}
+.bookmark_card a{
+    color: orangered;
+    text-decoration: none;
+}
